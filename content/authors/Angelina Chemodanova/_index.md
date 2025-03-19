@@ -1,45 +1,39 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Angelina Chemodanova
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Angelina
+last_name: Chemodanova
 
 # Username (this should match the folder name)
 authors:
-  - 吳恩達
+  - Angelina Chemodanova
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Computer science student
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: Peoples' Friendship University of Russia named after Patrice Lumumba
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include higher-order Markov chains, queuing systems, and infocommunications.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Economy
+  - Probability Theory
+  - Mathematical Statistics
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Fundamental computer science and information technology
+      institution: Peoples' Friendship University of Russia named after Patrice Lumumba
+      year: 2022-2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -73,6 +67,4 @@ user_groups:
   - Researchers
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Angelina Chemodanova is a student at the Peoples' Friendship University of Russia named after Patrice Lumumba. Her research interests are related to probability theory, mathematical statistics, and economics. She chose to work on this project in order to deal with a new interesting task. In her spare time from computer science, she is engaged in creative work, draws paintings to order, sews and is fond of modeling.
