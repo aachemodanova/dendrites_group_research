@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Angelina Chemodanova
+title: Irina Seregina
 
 # Full name (for SEO)
-first_name: Angelina
-last_name: Chemodanova
+first_name: Irina
+last_name: Seregina
 
 # Username (this should match the folder name)
 authors:
-  - Angelina Chemodanova
+  - Irina Seregina
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,12 +22,12 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include higher-order Markov chains, queuing systems, and infocommunications.
+bio: My interests are Machine Learning and Data Analysis.
 
 interests:
-  - Economy
-  - Probability Theory
-  - Mathematical Statistics
+  - Informatics 
+  - Mathematics
+  - Languages
 
 education:
   courses:
@@ -42,10 +42,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '1132226443@pfur.ru'
+    link: '1132227126@pfur.ru'
   - icon: github
     icon_pack: fab
-    link: https://github.com/aachemodanova
+    link: https://github.com/irinaseregina
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,4 +61,4 @@ user_groups:
   - Researchers
 ---
 
-Angelina Chemodanova is a student at the Peoples' Friendship University of Russia named after Patrice Lumumba. Her research interests are related to probability theory, mathematical statistics, and economics. She chose to work on this project in order to deal with a new interesting task. In her spare time from computer science, she is engaged in creative work, draws paintings to order, sews and is fond of modeling.
+Irina Seregina is a student of PFUR University, studying "fundamental computer science and information technologies". She is interested in mathematical statistics, machine learning and data analysis. This study interests her because of its relevance and interesting and non-trivial subject matter. In her spare time she prefers reading and playing guitar, as well as studying languages and researching topics related to the university program.

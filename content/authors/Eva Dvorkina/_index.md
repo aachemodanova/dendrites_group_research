@@ -42,16 +42,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: https://www.researchgate.net/profile/Eva-Dvorkina
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://rutube.ru/channel/30242754/
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://arxiv.org/user/
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/evdvorkina
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -67,4 +67,4 @@ user_groups:
   - Researchers
 ---
 
-Eva Dvorkina is a student at the Peoples' Friendship University of Russia named after Patrice Lumumba. Her research interests are related to artificial intelligence, mathematical statistics, and expert systems. She chose to work on this project in order to deal with a new interesting task. In her spare time from computer science, she is engaged in creative work, draws paintings, volunteers, and explains mathematics to students.
+Eva Dvorkina is a student at the Peoples' Friendship University of Russia named after Patrice Lumumba. She is Executive Secretary of the Student Committee of the Faculty of Sciences. Her research interests are related to artificial intelligence, mathematical statistics, and expert systems. She chose to work on this project in order to deal with a new interesting task. In her spare time from computer science, she is engaged in creative work, draws paintings, volunteers, and explains mathematics to students.

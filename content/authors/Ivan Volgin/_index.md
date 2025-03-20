@@ -1,14 +1,10 @@
 ---
 # Display name
-title: Angelina Chemodanova
+title: Ivan Volgin
 
-# Full name (for SEO)
-first_name: Angelina
-last_name: Chemodanova
-
-# Username (this should match the folder name)
-authors:
-  - Angelina Chemodanova
+# Full Name (for SEO)
+first_name: Ivan
+last_name: Volgin
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,12 +18,12 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include higher-order Markov chains, queuing systems, and infocommunications.
+bio: My interests are Machine Learning, Data Analysis and Microservices Developing.
 
 interests:
-  - Economy
-  - Probability Theory
-  - Mathematical Statistics
+  - Informatics 
+  - Mathematics
+  - Languages
 
 education:
   courses:
@@ -42,10 +38,10 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '1132226443@pfur.ru'
+    link: '1132226459@pfur.ru'
   - icon: github
     icon_pack: fab
-    link: https://github.com/aachemodanova
+    link: https://github.com/iavolgin
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -55,10 +51,13 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
 
+# Highlight the author in author lists? (true/false)
+highlight_name: false
+
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Researchers
 ---
 
-Angelina Chemodanova is a student at the Peoples' Friendship University of Russia named after Patrice Lumumba. Her research interests are related to probability theory, mathematical statistics, and economics. She chose to work on this project in order to deal with a new interesting task. In her spare time from computer science, she is engaged in creative work, draws paintings to order, sews and is fond of modeling.
+Ivan Volgin is a student of PFUR University, studying "fundamental computer science and information technologies". He is interested in machine learning (especially CV), data analysis and development of microservices. This study interests him because of its relevance and interesting and non-trivial subject matter. In his spare time he prefers doing sport and looking after plants, as well as studying languages and researching topics related to the university program.
