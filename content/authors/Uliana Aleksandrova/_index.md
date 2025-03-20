@@ -61,4 +61,4 @@ user_groups:
   - Researchers
 ---
 
-Uliana Aleksandrova is a student at RUDN university, majoring in Fundamental computer science and information technology. Her direction of study is Machine Learning and Robotic Systems, as well as Data Science. She takes part in this research due to her interest in Neural Networks and their connections with biology. In her spare time, she prefers learning languages, taking up creative hobbies and going to the gym.
+Uliana Aleksandrova is a student at RUDN university, majoring in Fundamental computer science and information technology. Her direction of study is Machine Learning and Robotic Systems, as well as Data Science. She takes part in this research due to her interest in Neural Networks and their connections with physics. In her spare time, she prefers learning languages, taking up creative hobbies and going to the gym.
