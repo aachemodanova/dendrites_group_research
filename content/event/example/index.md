@@ -13,7 +13,7 @@ address:
   country: 
 
 summary: Group project "Dendrite growth". Stage 1.
-abstract: 'We have prepared a presentation on the first stage of the project "Dendrite growth".'
+abstract: 'We have prepared a presentation on the first stage of the project "Dendrite growth"'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
