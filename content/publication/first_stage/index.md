@@ -56,12 +56,12 @@ links:
   - name: plvideo
     url: https://plvideo.ru/watch?v=vIeydVQu--Je&list=LIYh9zr7Zwte
 
-url_pdf: 'report_first.pdf'
+url_pdf: 'theme-research-group/content/publication/first_stage/report_first.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'presentation_first.pdf'
+url_slides: 'theme-research-group/content/publication/first_stage/presentation_first.pdf'
 url_source: ''
 url_video: ''
 
