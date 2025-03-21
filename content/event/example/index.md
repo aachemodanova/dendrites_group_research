@@ -17,8 +17,8 @@ abstract: 'We have prepared a presentation on the first stage of the project "De
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: ''
-date_end: ''
+date: '2025-03-19T00:00:00Z'
+date_end: '2025-03-20T00:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
