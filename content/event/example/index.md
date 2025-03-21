@@ -61,3 +61,5 @@ Slides can be added in a few ways:
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
 
 Further event details, including page elements such as image galleries, can be added to the body of this page.
+
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/4044988bf092e351e477b7352888bef9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

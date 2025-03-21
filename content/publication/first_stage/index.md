@@ -26,11 +26,11 @@ publishDate: '2025-03-01T00:00:00Z'
 # Enter a publication type from the CSL standard.
 publication_types: ['project_stages']
 
-abstract: Our research group is working on a project on "Dendrite growth," in which we explore a mathematical model of this process. 
+abstract: Our research group is working on a project on "Dendrite growth", in which we explore a mathematical model of this process. 
 
 
 # Summary. An optional shortened abstract.
-summary: Our research group is working on a project on "Dendrite growth," in which we explore a mathematical model of this process.
+summary: Our research group is working on a project on "Dendrite growth", in which we explore a mathematical model of this process.
 
 tags: []
 
@@ -87,6 +87,8 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: presentation.md
 ---
+
+<iframe width="720" height="405" src="https://rutube.ru/play/embed/4044988bf092e351e477b7352888bef9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 {{% callout note %}}
 # Информация
