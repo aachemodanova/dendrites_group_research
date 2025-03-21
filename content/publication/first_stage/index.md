@@ -56,12 +56,12 @@ links:
   - name: plvideo
     url: https://plvideo.ru/watch?v=vIeydVQu--Je&list=LIYh9zr7Zwte
 
-url_pdf: ''
+url_pdf: 'https://github.com/aachemodanova/dendrites_group_research/content/publication/first_stage/report.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'https://github.com/aachemodanova/dendrites_group_research/content/publication/first_stage/presentation.pdf'
 url_source: ''
 url_video: ''
 
