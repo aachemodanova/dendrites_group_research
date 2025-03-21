@@ -43,10 +43,10 @@ social:
   - icon: envelope
     icon_pack: fas
     link: https://www.researchgate.net/profile/Eva-Dvorkina
-  - icon: twitter
+  - icon: youtube
     icon_pack: fab
     link: https://rutube.ru/channel/30242754/
-  - icon: google-scholar
+  - icon: arxiv
     icon_pack: ai
     link: https://arxiv.org/user/
   - icon: github
