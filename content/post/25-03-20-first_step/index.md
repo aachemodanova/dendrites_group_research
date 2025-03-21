@@ -1,15 +1,11 @@
 ---
-title: The first stage of the group project on the topic "Scientific problem of the Dendrite Growth project"
+title: Group project "Dendrite growth". Stage 1. The scientific problem of the project
 date: 2025-03-20
 image:
   focal_point: 'top'
 ---
 
-The first stage of the group project on the topic "Scientific problem of the Dendrite Growth project" was completed.
-
 <!--more-->
-
-## TITLE: Group project "Dendrite growth". Stage 1: The scientific problem of the project
 
 ## General information
 Our research group is working on a project on "Dendrite growth," in which we explore a mathematical model of this process.
@@ -31,9 +27,9 @@ Consider an algorithm for constructing a model of dendrite growth
 To build a model of dendrite growth
 , investigate the time dependence of the number of particles in an aggregate and its RMS radius in different modes.
 
-# Definition
+## Definition
 
 A dendrite is a crystal that develops with a typical branching shape resembling a fractal.  In metals, they are formed during crystallization from a supercooled melt.
 
-# Result
+## Result
 The first stage of the group project on "Dendrite growth" was completed, as a result of which we examined materials on a scientific problem, made a theoretical description of the dendrite growth model and identified the tasks of further research.
