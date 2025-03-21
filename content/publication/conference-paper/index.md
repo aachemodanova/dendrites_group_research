@@ -1,37 +1,36 @@
 ---
-title: 'An example conference paper'
+title: 'Group project "Dendrite growth". Stage 1: The scientific problem of the project'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Eva Dvorkina
+  - Angelina Chemodanova
+  - Uliana Aleksandrova
+  - Irina Seregina
+  - Ivan Volgin
+  - Yaroslav Goloschapov
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-03-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-03-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['project_stages']
 
-# Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: In *ICW*
+abstract: Our research group is working on a project on "Dendrite growth," in which we explore a mathematical model of this process. 
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Our research group is working on a project on "Dendrite growth," in which we explore a mathematical model of this process.
 
 tags: []
 
@@ -39,18 +38,32 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+  - name: report_md
+    url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/report/report.md
+  - name: report_pdf
+    url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/report/report.pdf
+  - name: report_docx
+    url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/report/report.docx
+  - name: presentation_md
+    url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/presentation/presentation.md
+  - name: presentation_pdf
+    url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/presentation/presentation.pdf
+  - name: presentation_html
+    url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/presentation/presentation.html
+  - name: rutube
+    url: https://plvideo.ru/watch?v=vIeydVQu--Je&list=LIYh9zr7Zwte
+  - name: plvideo
+    url: https://plvideo.ru/watch?v=vIeydVQu--Je&list=LIYh9zr7Zwte
 
 url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -72,15 +85,81 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: presentation.md
 ---
 
 {{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+# Информация
 {{% /callout %}}
 
 {{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
+## Состав исследовательской группы
+
+- Дворкина Е. В.
+- Чемоданова А. А.
+- Серёгина И. А.
+- Волгин И. А.
+- Александрова У. В.
+- Голощапов Я. В.
 {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+{{% callout note %}}
+# Вводная часть
+{{% /callout %}}
+
+{{% callout note %}}
+## Актуальность
+
+  - Ключевая роль в металлургии и литейном производстве.
+  - теоретическое понимание процессов кристаллизации,
+  - улучшение технологий производства материалов.
+{{% /callout %}}
+
+{{% callout note %}}
+## Объект и предмет исследования
+
+  - Дендриты
+  - Кристаллические дендриты
+{{% /callout %}}
+
+{{% callout note %}}
+## Цели и задачи
+Цели: 
+
+- Исследовать модель роста дендритов
+
+Задачи:
+
+- Рассмотреть комбинированную модель роста дендритов.
+- Рассмотреть алгоритм построения модели роста дендритов.
+- Построить модель роста дендритов.
+- Исследовать зависимость от времени числа частиц в агрегате и его среднеквадратичного радиуса в разных режимах.
+{{% /callout %}}
+
+
+{{% callout note %}}
+# Теоретические сведения о модели
+{{% /callout %}}
+
+{{% callout note %}}
+
+## Физические свойства вещества
+
+- плотность $$\rho$$,
+- удельная теплота плавления на единицу массы $L$, 
+- теплоемкость при постоянном давлении $c_p$ (также на единицу массы),
+- коэффициент теплопроводности $\kappa$ (для простоты будем считать теплопроводность и плотность не зависящими от температуры и одинаковыми для твердой и жидкой фаз – так называемая симметричная модель),
+- температура плавления $T_m$.
+{{% /callout %}}
+
+{{% callout note %}}
+## Переохлаждение расплава
+
+Безразмерное переохлаждение:
+$$
+S = c_p \frac{(T_m - T_\infty)}{L} \tag{1}
+$$
+
+При $S \geq 1$ — полное затвердевание, при $S < 1$ — частичное.
+{{% /callout %}}
+
