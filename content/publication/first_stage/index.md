@@ -56,12 +56,12 @@ links:
   - name: plvideo
     url: https://plvideo.ru/watch?v=vIeydVQu--Je&list=LIYh9zr7Zwte
 
-url_pdf: ''
+url_pdf: 'report_first.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'presentation_first.pdf'
 url_source: ''
 url_video: ''
 
@@ -90,78 +90,29 @@ slides: presentation.md
 
 <iframe width="720" height="405" src="https://rutube.ru/play/embed/4044988bf092e351e477b7352888bef9/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-{{% callout note %}}
-# Информация
-{{% /callout %}}
-
-{{% callout note %}}
-## Состав исследовательской группы
-
-- Дворкина Е. В.
-- Чемоданова А. А.
-- Серёгина И. А.
-- Волгин И. А.
-- Александрова У. В.
-- Голощапов Я. В.
-{{% /callout %}}
-
-{{% callout note %}}
-# Вводная часть
-{{% /callout %}}
-
-{{% callout note %}}
-## Актуальность
-
-  - Ключевая роль в металлургии и литейном производстве.
-  - теоретическое понимание процессов кристаллизации,
-  - улучшение технологий производства материалов.
-{{% /callout %}}
-
-{{% callout note %}}
-## Объект и предмет исследования
-
-  - Дендриты
-  - Кристаллические дендриты
-{{% /callout %}}
-
-{{% callout note %}}
-## Цели и задачи
-Цели: 
-
-- Исследовать модель роста дендритов
-
-Задачи:
-
-- Рассмотреть комбинированную модель роста дендритов.
-- Рассмотреть алгоритм построения модели роста дендритов.
-- Построить модель роста дендритов.
-- Исследовать зависимость от времени числа частиц в агрегате и его среднеквадратичного радиуса в разных режимах.
-{{% /callout %}}
+<iframe width="560" height="315" src="https://plvideo.ru/embed/vIeydVQu--Je" title="Platform video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-{{% callout note %}}
-# Теоретические сведения о модели
-{{% /callout %}}
+## Relevance
+The appearance of dendrites plays a key role in metallurgy and in foundry production, especially during the solidification of metals and alloys, since the microstructure of the resulting dendrites largely determines the mechanical, electrical and thermal properties of the obtained materials. Studying their characteristics is important not only for a theoretical understanding of crystallization processes, but also for practice, for improving production technologies of modern materials with specified properties. 
+Thus, the scientific problem is to develop theoretical and numerical models capable of accurately predicting the dynamics of dendrite growth and their effect on the microstructure of formed materials.
 
-{{% callout note %}}
+## Object and subject of research
+- Dendrites, 
+- Crystalline dendrites
 
-## Физические свойства вещества
+## Goals 
+To investigate the dendrite growth model
 
-- плотность $$\rho$$,
-- удельная теплота плавления на единицу массы $L$, 
-- теплоемкость при постоянном давлении $c_p$ (также на единицу массы),
-- коэффициент теплопроводности $\kappa$ (для простоты будем считать теплопроводность и плотность не зависящими от температуры и одинаковыми для твердой и жидкой фаз – так называемая симметричная модель),
-- температура плавления $T_m$.
-{{% /callout %}}
+## Tasks
+Consider a combined model of dendrite growth
+Consider an algorithm for constructing a model of dendrite growth
+To build a model of dendrite growth
+, investigate the time dependence of the number of particles in an aggregate and its RMS radius in different modes.
 
-{{% callout note %}}
-## Переохлаждение расплава
+## Definition
 
-Безразмерное переохлаждение:
-$$
-S = c_p \frac{(T_m - T_\infty)}{L} \tag{1}
-$$
+A dendrite is a crystal that develops with a typical branching shape resembling a fractal.  In metals, they are formed during crystallization from a supercooled melt.
 
-При $S \geq 1$ — полное затвердевание, при $S < 1$ — частичное.
-{{% /callout %}}
-
+## Result
+The first stage of the group project on "Dendrite growth" was completed, as a result of which we examined materials on a scientific problem, made a theoretical description of the dendrite growth model and identified the tasks of further research.
