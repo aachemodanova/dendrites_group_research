@@ -1,5 +1,5 @@
 ---
-title: Tour
+title: Обзор
 date: 2022-10-24
 
 type: landing
@@ -8,8 +8,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: 👋 Добро пожаловать в нашу команду!
+        content: Посмотрите, над чем мы работаем...
         align: center
         background:
           image:
@@ -18,8 +18,8 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Отдых и учеба ☕️
+        content: 'Делитесь своими знаниями с другими и исследуйте вместе с нами!'
         align: left
         background:
           image:
@@ -28,7 +28,7 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: Dendrite Growth Researchers
+      - title: Исследование роста дендритов
         content: 
         align: right
         background:
@@ -41,7 +41,7 @@ sections:
         link:
           icon: graduation-cap
           icon_pack: fas
-          text: Join Us
+          text: Присоединиться
           url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
