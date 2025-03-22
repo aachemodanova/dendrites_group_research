@@ -14,22 +14,22 @@ ru:
   menu:
     main:
       - name: Обзор
-        url: '#tour'
+        url: 'tour'
         weight: 10
       - name: Новости
-        url: '#post'
+        url: 'post'
         weight: 20
       - name: Участники
-        url: '#people'
+        url: 'people'
         weight: 30
       - name: События
-        url: '#event'
+        url: 'event'
         weight: 40
       - name: Публикации
-        url: '#publications'
+        url: 'publication'
         weight: 50
       - name: Связаться
-        url: '#contact'
+        url: 'contact'
         weight: 60
 
 # Uncomment the lines below to configure your website in a second language.

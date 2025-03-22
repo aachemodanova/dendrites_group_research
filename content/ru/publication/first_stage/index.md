@@ -1,5 +1,5 @@
 ---
-title: 'Group project "Dendrite growth". Stage 1: The scientific problem of the project'
+title: 'Групповой проект "Рост Дендритов". Этап 1: Научная проблема проекта'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -26,11 +26,11 @@ publishDate: '2025-03-01T00:00:00Z'
 # Enter a publication type from the CSL standard.
 publication_types: ['project_stages']
 
-abstract: Our research group is working on a project on "Dendrite growth", in which we explore a mathematical model of this process. 
+abstract: Наша исследовательская команда работает над проектом по теме "Рост дендритов", в котором мы исследуем модель этого процесса.
 
 
 # Summary. An optional shortened abstract.
-summary: Our research group is working on a project on "Dendrite growth", in which we explore a mathematical model of this process.
+summary: Наша исследовательская команда работает над проектом по теме "Рост дендритов", в котором мы исследуем модель этого процесса.
 
 tags: []
 
@@ -94,70 +94,69 @@ slides: presentation.md
 
 
 
-# Introduction
+# Введение
 
-## Relevance
+## Актуальность
 
-The appearance of dendrites plays a key role in metallurgy and in foundry production, especially during the solidification of metals and alloys, since the microstructure of the resulting dendrites largely determines the mechanical, electrical and thermal properties of the obtained materials. Studying their characteristics is important not only for a theoretical understanding of crystallization processes, but also for practice, for improving production technologies of modern materials with specified properties. 
-Thus, the scientific problem is to develop theoretical and numerical models capable of accurately predicting the dynamics of dendrite growth and their effect on the microstructure of formed materials. 
+Появление дендритов играет ключевую роль в металлургии и в литейном производстве, особенно при затвердевании металлов и сплавов, так как микроструктура образующихся дендритов во многом определяет механические, электрические и тепловые свойства полученных материалов. Изучение их характеристик важно не только для теоретического понимания процессов кристаллизации, но и для практики, для улучшения технологий производства современных материалов с заданными свойствами. 
+Таким образом, научная проблема заключается в разработке теоретических и численных моделей, способных точно предсказывать динамику роста дендритов и их влияние на микроструктуру сформированных материалов. 
 
+## Объект и предмет исследования
 
-
-## Object and subject of research
-
-- Dendrites
-- Crystalline dendrites
+- Дендриты
+- Кристаллические дендриты
 
 
-## Goal 
+## Цель 
 
-To investigate the dendrite growth model.
+Исследовать модель роста дендритов.
 
-## Tasks
+## Задачи
 
-- Consider a combined model of dendrite growth.
-- Consider an algorithm for constructing a model of dendrite growth.
-- Build a model of dendrite growth.
-- To investigate the time dependence of the number of particles in the aggregate and its RMS radius in different modes.
+- Рассмотреть комбинированную модель роста дендритов.
+- Рассмотреть алгоритм построения модели роста дендритов.
+- Построить модель роста дендритов.
+- Исследовать зависимость от времени числа частиц в агрегате и его среднеквадратичного радиуса в разных режимах.
 
-# Theoretical description of the problem
+# Теоретическое описание задачи
 
-## Definitions
+## Определения
 
-A dendrite is a crystal that develops with a typical branching shape resembling a fractal.  In metals, they are formed during crystallization from a supercooled melt.
+Дендрит - это кристалл, который развивается с типичной многоветвящейся формой, напоминающей фрактал.  В металлах образуются в процессе кристаллизации из переохлажденного расплава.
 
-The anisotropy of a crystal is the dependence of the physical properties of a crystal on the direction of growth. That is, the crystal structure is not symmetrical, and there are several axes along which the crystal exhibits various properties (mechanical, electrical, optical).
+Анизотропия кристалла — это зависимость физических свойств кристалла от направления роста. То есть кристаллическая структура не симметрична, и существует несколько осей, вдоль которых у кристалла проявляются различные свойства (механические, электрические, оптические) .
 
-Anisotropy is a natural consequence of the crystalline structure, since the density of atoms varies on different crystallographic planes and along different directions.
+Анизотропия является естественным следствием кристаллического строения, так как на различных кристаллографических плоскостях и вдоль различных направлений плотность атомов различна.
 
-Next, we will consider the formation of a crystalline structure from a supercooled melt. 
+Далее будем рассматривать образование кристаллической структуры из переохлажденного расплава. 
 
-## Basic concepts and equations
+## Основные понятия и уравнения
 
-### Dendrite formation
+### Образование дендритов
 
-The formation of dendrites begins with some nucleation, i.e. the first appearance of solid growth in a supercooled liquid. This formation will initially grow spherically until this shape is no longer stable. The instability of the shape has two reasons: the anisotropy of the surface energy of the solid-liquid boundary and the kinetics of attachment of particles to crystallographic planes during their formation.
+Образование дендритов начинается с некоторого зародышеобразования, т. е. первого появления твердого роста в переохлажденной жидкости. Это образование сначала будет расти сферически, пока эта форма не перестанет быть устойчивой. Нестабильность формы имеет две причины: анизотропию поверхностной энергии границы твердого тела и жидкости и кинетику прикрепления частиц к кристаллографическим плоскостям при их образовании.
 
-It is necessary to specify the physical properties of the substance:
+Необходимо задать физические свойства вещества:
 
-- density {{< math >}}$\rho${{< /math >}},
-- specific heat of melting per unit mass {{< math >}}$L${{< /math >}}, 
-- heat capacity at constant pressure {{< math >}}$c_p${{< /math >}} (also per unit mass),
-- coefficient of thermal conductivity {{< math >}}$\kappa${{< /math >}} (for simplicity, we will consider thermal conductivity and density independent of temperature and the same for solid and liquid phases – the so-called symmetric model),
-- melting point {{< math >}}$T_m${{< /math >}}.
+- плотность {{< math >}}$\rho${{< /math >}},
+- удельная теплота плавления на единицу массы {{< math >}}$L${{< /math >}}, 
+- теплоемкость при постоянном давлении {{< math >}}$c_p${{< /math >}} (также на единицу массы),
+- коэффициент теплопроводности {{< math >}}$\kappa${{< /math >}} (для простоты будем считать теплопроводность и плотность не зависящими от температуры и одинаковыми для твердой и жидкой фаз – так называемая симметричная модель),
+- температура плавления {{< math >}}$T_m${{< /math >}}.
 
-Let the initial temperature of the melt be less than the melting point (i.e., it is supercooled) {{< math >}}$T_{\infty} < T_m${{< /math >}}. 
+Пусть начальная температура расплава меньше температуры плавления (т.е. он переохлажденный) {{< math >}}$T_{\infty}<T_m${{< /math >}}.  
 
-In the context of crystallization from a supercooled melt, dimensionless supercooling {{< math >}}$S${{< /math >}} is introduced to normalize and simplify mathematical models of the process. This parameter characterizes the degree of supercooling of the melt relative to its melting point, which is critical for initiation and crystallization rate. It is calculated using the formula (1).
+В контексте кристаллизации из переохлажденного расплава, безразмерное переохлаждение {{< math >}}$S${{< /math >}} вводится для нормализации и упрощения математических моделей процесса. Этот параметр характеризует степень переохлаждения расплава относительно его температуры плавления, что критично для инициации и скорости кристаллизации. Оно рассчитывается по формуле (1).
 
 {{< math >}}$$
 S = c_p \frac{(T_m - T_\infty)}{L}
 \tag{1}
 $$ {{< /math >}}
 
-Adiabatic conditions imply the absence of heat exchange with the environment, which means the conservation of thermal energy within the system. Under such conditions, at {{< math >}}$S\geq 1${{< /math >}}, the entire melt solidifies, since there is a sufficient temperature difference to ensure the crystallization process. At {{< math >}}$S < 1$ {{< /math>}}, only part of the melt solidifies, and we will consider this case.
 
-We also restrict ourselves to the two-dimensional case. The thermal conductivity equation (2) is used to describe the temperature change over time in the two-dimensional case
+Адиабатические условия предполагают отсутствие теплообмена с окружающей средой, что означает сохранение тепловой энергии внутри системы. В таких условиях, при {{< math >}}$S \geq 1${{< /math >}}, весь расплав затвердевает, поскольку имеется достаточная разность температур для обеспечения процесса кристаллизации. При {{< math >}}$S < 1${{< /math >}} затвердевает только часть расплава, этот случай мы и будем рассматривать.
+
+Также ограничимся двумерным случаем. Для описания изменения температуры со временем в двумерном случае используется уравнение теплопроводности (2)
 
 {{< math >}}
 $$
@@ -166,17 +165,17 @@ $$
 $$
 {{< /math >}}
 
-### Dendrite growth rate
+### Скорость роста дендритов
 
-Next, we find the velocity of the crystallization boundary perpendicular to itself, and denote this velocity {{< math >}}$V${{< /math >}}. During {{< math >}}$\Delta t${{< /math >}}, a mass of matter equal to {{< math >}}$\Delta m =\rho solidifies in a section of the area {{< math >}}$s${{< /math >}} s V \Delta t${{< /math >}}.
+Далее найдем скорость движения границы кристаллизации перпендикулярно самой себе, обозначим эту скорость {{< math >}}$V${{< /math >}}. За время {{< math >}}$\Delta t${{< /math >}} на участке площади {{< math >}}$s${{< /math >}} затвердевает масса вещества, равная {{< math >}}$\Delta m = \rho s V \Delta t${{< /math >}}.
 
-During crystallization, the heat of melting is released {{< math >}}$\Delta Q = \Delta m L${{< /math >}}. The law of conservation of energy requires that all the heat released be removed due to thermal conductivity, the total heat flow at the boundary {{< math >}}$\mathbf{q} = -\kappa (\nabla T|_l - \nabla T|_s)${{< /math >}}
+При кристаллизации выделяется теплота плавления {{< math >}}$\Delta Q = \Delta m L${{< /math >}}. Закон сохранения энергии требует, чтобы все выделившееся тепло было отведено за счет теплопроводности, суммарный поток тепла на границе {{< math >}}$\mathbf{q} = -\kappa (\nabla T|_l - \nabla T|_s)${{< /math >}}
 
-Here {{< math >}}$\nabla T|_l${{< /math >}} and {{< math >}}$\nabla T|_s${{< /math >}} are temperature gradients in liquid and solid phases, respectively. The orientation of the dendrite is determined by the external temperature gradient. Temperature gradient {{< math >}}$\nabla T${{< /math >}} is a vector whose components in the two—dimensional case are {{< math >}}$(\partial T / \partial x, \partial T / \partial y)${{< /math >}}.
+Здесь  {{< math >}}$\nabla T|_l${{< /math >}} и {{< math >}}$\nabla T|_s${{< /math >}} — градиенты температуры в жидкой и твердой фазах соответственно. Ориентация дендрита задается внешним градиентом температуры. Градиент температуры {{< math >}}$\nabla T${{< /math >}} — вектор, компоненты которого в двумерном случае равны {{< math >}}$(\partial T / \partial x, \partial T / \partial y)${{< /math >}}.
 
-The indexes {{< math >}}$l${{< /math >}} and {{< math >}}$s${{< /math >}} refer to the liquid and solid phases.
+Индексы {{< math >}}$l${{< /math >}} и {{< math >}}$s${{< /math >}} относятся к жидкой и твердой фазам.
 
-To conserve energy, the condition {{< math >}}$q s \Delta t = \Delta Q${{< /math >}} must be met. Substituting expressions for {{< math >}}$q${{< /math >}} and {{< math >}}$\Delta Q${{< /math >}}, we get (3)
+Для сохранения энергии должно выполняться условие {{< math >}}$q s \Delta t = \Delta Q${{< /math >}}. Подставляя выражения для {{< math >}}$q${{< /math >}} и {{< math >}}$\Delta Q${{< /math >}}, получаем (3)
 
 {{< math >}}
 $$
@@ -184,7 +183,8 @@ $$
 \tag{3}
 $$
 {{< /math >}}
-By reducing the common factors {{< math >}}$s${{< /math >}}, {{< math >}}$\Delta t${{< /math >}} and considering that {{< math >}}$\mathbf{n}\cdot (\nabla T)${{< /math >}} is the projection of the temperature gradient on the normal to the boundary, you can write the scalar equation (4)
+
+Сокращая общие множители {{< math >}}$s${{< /math >}}, {{< math >}}$\Delta t ${{< /math >}} и учитывая, что {{< math >}}$\mathbf{n} \cdot (\nabla T)${{< /math >}} — проекция градиента температуры на нормаль к границе, можно записать скалярное уравнение (4)
 
 {{< math >}}
 $$
@@ -193,7 +193,7 @@ $$
 $$
 {{< /math >}}
 
-Rearranging the expression, we obtain Stefan's condition (5)
+Перестроив выражение, получаем условие Стефана (5)
 
 {{< math >}}
 $$
@@ -202,34 +202,34 @@ $$
 $$
 {{< /math >}}
 
-This equation describes the relationship between the velocity of the crystallization boundary and temperature gradients. In it, {{< math >}}$\mathbf{n}${{< /math >}} is a vector of unit length perpendicular to the boundary (the normal vector).
+Это уравнение описывает связь между скоростью движения границы кристаллизации и градиентами температуры. В нем {{< math >}}$\mathbf{n}${{< /math >}} - вектор единичной длины, перпендикулярный границе (вектор нормали).
 
-### Stefan's problem and the Mullins-Sekerka instability 
+### Задача Стефана и неустойчивость Муллинса-Секерки 
 
-To determine the change in the position and shape of the solidification boundary over time, it is necessary to set the temperature at the boundary {{< math >}}$T_b${{< /math >}}. The simplest option is to accept {{< math >}}$T_b = T_m${{< /math >}}. In this case, the temperature inside the solid region will be constant, and this problem is known as the Stefan problem.
+Для определения изменения положения и формы границы затвердевания со временем необходимо задать температуру на границе {{< math >}}$T_b${{< /math >}}. Простейший вариант — принять {{< math >}}$T_b = T_m${{< /math >}}. В этом случае внутри твердой области температура будет постоянной, а такая проблема известна как **задача Стефана**.
 
-However, the solidification boundary is unstable in this case. Consider a flat boundary moving at some speed. If a small protrusion appears on it, the temperature gradient in front of the protrusion increases, which leads to an acceleration of its growth. This leads to a further increase in the gradient and acceleration of the protrusion, which characterizes the **Mullins-Sekerki instability**. This situation is similar to diffusion-limited aggregation.
+Однако граница затвердевания в этом случае неустойчива. Рассмотрим плоскую границу, движущуюся с некоторой скоростью. Если на ней возникает небольшой выступ, градиент температуры перед выступом увеличивается, что приводит к ускорению его роста. Это приводит к дальнейшему увеличению градиента и ускорению выступа, что характеризует **неустойчивость Муллинса-Секерки**. Эта ситуация аналогична диффузионно-ограниченной агрегации.
 
-In real solidification processes, such instabilities are not observed, which indicates the presence of mechanisms limiting the growth of protrusions. These mechanisms may be related to surface tension and kinetic constraints.
+В реальных процессах затвердевания таких неустойчивостей не наблюдается, что указывает на наличие механизмов, ограничивающих рост выступов. Эти механизмы могут быть связаны с поверхностным натяжением и кинетическими ограничениями.
 
-### The Gibbs-Thomson condition  
+### Условие Гиббса-Томсона  
 
-The first mechanism is related to surface tension. Atoms on the surface have fewer neighbors in the same phase, which leads to an increase in their potential energy. The additional potential energy is proportional to the surface area: {{< math >}}$\Delta E_p = \gamma s${{< /math >}}, where {{< math >}}$\gamma${{< /math >}} is the surface tension coefficient.
+Первый механизм связан с поверхностным натяжением. Атомы на поверхности имеют меньшее число соседей,  находящихся в той же фазе, что приводит к повышению их потенциальной энергии. Дополнительная потенциальная энергия пропорциональна площади поверхности: {{< math >}}$\Delta E_p = \gamma s${{< /math >}}, где {{< math >}}$\gamma${{< /math >}} — коэффициент поверхностного натяжения.
 
-The growth of protrusions increases the surface area, which is energetically unprofitable. Therefore, the temperature of the boundary at the protrusions must be lower than the melting point in order to compensate for this energy. This is described by the **Gibbs-Thomson condition**(6):
+Рост выступов увеличивает площадь поверхности, что энергетически невыгодно. Следовательно, температура границы на выступах должна быть ниже температуры плавления, чтобы компенсировать эту энергию. Это описывается **условием Гиббса-Томсона** (6):
 
 {{< math >}}
 $$
 T_b = T_m \left(1 - \frac{\gamma T_m}{\rho L^2 R}\right).
 \tag{6}
 $$
-{{< //math >}}
+{{< /math >}}
 
-Here {{< math >}}$R${{< /math >}} is the radius of curvature of the boundary at a given point (for a flat surface {{< math >}}$R = \infty${{< /math >}}). The capillary radius is introduced {{< math >}}$d_0 = \gamma T_m c_p / (\rho L^2)${{< /math >}}, the size of the resulting structure is proportional to it.
+Здесь {{< math >}}$R${{< /math >}} — радиус кривизны границы в данной точке (для плоской поверхности {{< math >}}$R = \infty${{< /math >}}). Вводится капиллярный радиус {{< math >}}$d_0 = \gamma T_m c_p / (\rho L^2)${{< /math >}}, размер образующейся структуры пропорционален ему.
 
-### Kinetic deceleration of ledge growth  
+### Кинетическое замедление роста выступов  
 
-The second mechanism is related to kinetic constraints. The attachment of atoms to a solid surface does not occur instantaneously, requiring some time during which moving sections of the boundary can supercool. This affects the temperature of the boundary (7)
+Второй механизм связан с кинетическими ограничениями. Присоединение атомов к твердой поверхности не происходит мгновенно, требуя некоторого времени, в течение которого движущиеся участки границы могут переохладиться. Это влияет на температуру границы (7)
 
 {{< math >}}
 $$
@@ -238,11 +238,11 @@ $$
 $$
 {{< /math >}}
 
-Here {{< math >}}$\beta${{< /math >}} is the kinetic coefficient.
+Здесь {{< math >}}$\beta${{< /math >}} — кинетический коэффициент.
 
-### Dimensionless temperature and the equation of thermal conductivity
+### Безразмерная температура и уравнение теплопроводности
 
-The dimensionless temperature {{< math >}}$\widetilde{T} = c_p (T - T_\infty)/L${{< /math >}} is introduced, where {{< math >}}$T_\infty${{< /math >}} is the initial temperature of the melt. The thermal conductivity equation for {{< math >}}$\widetilde{T}${{< /math >}} has the form (8)
+Вводится безразмерная температура {{< math >}}$\widetilde{T} = c_p (T - T_\infty)/L${{< /math >}}, где {{< math >}}$T_\infty${{< /math >}}  — начальная температура расплава. Уравнение теплопроводности для {{< math >}}$\widetilde{T}${{< /math >}} имеет вид (8)
 
 {{< math >}}
 $$
@@ -251,19 +251,19 @@ $$
 $$
 {{< /math >}}
 
-where {{< math >}}$\chi = \kappa / \rho c_p${{< /math >}} is the thermal conductivity coefficient.
+где {{< math >}}$\chi = \kappa / \rho c_p${{< /math >}} — коэффициент температуропроводности.
 
-Initial condition: {{< math >}}$\widetilde{T} = 0${{< /math >}} everywhere except for the seed. When the entire substance solidifies, {{< math >}}$\widetilde{T}${{< /math >}} increases by one. Next, we omit the sign {{< math >}}$~${{< /math >}} for the variable {{< math >}}$\widetilde{T}${{< /math >}}.
+Начальное условие: {{< math >}}$\widetilde{T} = 0${{< /math >}} везде, кроме затравки. При затвердевании всего вещества {{< math >}}$\widetilde{T}${{< /math >}} повышается на единицу. Далее опустим знак {{< math >}}$~${{< /math >}} у переменной {{< math >}}$\widetilde{T}${{< /math >}}.
 
-# Model description
+# Описание модели
 
-The initial position of the embryo is determined randomly. We will describe the model, for example, where we consider a square area of size {{< math >}}$N\times N${{< /math >}} nodes, with a central seed. Distance between nodes {{< math >}}$h = 1${{< /math >}}, time step {{< math >}}$\Delta t = 1${{< /math >}}.
+Начальное положение зародыша определяется случайным образом. Мы же опишем модель опишем для примера, где рассмотрим квадратную область размера {{< math >}}$N \times N${{< /math >}} узлов, с центральной затравкой. Расстояние между узлами {{< math >}}$h = 1${{< /math >}}, шаг по времени {{< math >}}$\Delta t = 1${{< /math >}}.
 
-## Temperature change
+## Изменение температуры
 
-We use the equation of thermal conductivity (2). 
+Используем уравнение теплопроводности (2). 
 
-The exact expression for {{< math >}}$\nabla^2 T${{< /math >}} in the node {{< math >}}$(i,j)${{< /math >}} (9)
+Точное выражение для {{< math >}}$\nabla^2 T${{< /math >}} в узле {{< math >}}$(i,j)${{< /math >}} (9)
 
 {{< math >}}
 $$
@@ -272,9 +272,9 @@ $$
 $$
 {{< /math >}}
 
-where {{< math >}}$\langle T_{(i,j)} \rangle${{< /math >}} is the average temperature value in neighboring nodes, {{< math >}}$w${{< /math >}} is a coefficient that takes into account the influence of diagonal neighbors (usually {{< math >}}$w = 1/2${{< /math >}}).
+где {{< math >}}$\langle T_{(i,j)} \rangle${{< /math >}} — среднее значение температуры в соседних узлах, {{< math >}}$w${{< /math >}} — коэффициент, учитывающий влияние диагональных соседей (обычно {{< math >}}$w = 1/2${{< /math >}}).
 
-To a first approximation, a new temperature value can be written using an explicit difference scheme (10) :
+В первом приближении можно записать новое значение температуры, используя явную разностную схему (10) :
 
 {{< math >}}
 $$
@@ -283,7 +283,7 @@ $$
 $$
 {{< /math >}}
 
-However, at the same time, only the neighbors will feel the temperature change in the node after one time step. This may be correct for high crystallization rates. Usually, however, the establishment of temperature occurs much faster than the growth of the crystal. To take this into account, one step of the crystal growth process {{< math >}}$\Delta t${{< /math >}} is divided into {{< math >}}$m${{< /math >}} steps with a duration of {{< math >}}$\frac{\Delta t}{m}${{< /math >}}. The new temperature value after step {{< math >}}$m${{< /math >}} is calculated using formula (11)
+Однако, при этом изменение температуры в узле через один шаг по времени ощутят только соседи. Это может быть правильно для больших скоростей кристаллизации. Обычно все же установление температуры происходит гораздо быстрее, чем рост кристалла. Чтобы это учесть, один шаг процесса роста кристалла {{< math >}}$\Delta t${{< /math >}} разобьем на {{< math >}}$m${{< /math >}} шагов длительностью {{< math >}}$\frac{\Delta t}{m}${{< /math >}}. Новое значение температуры после шага {{< math >}}$m${{< /math >}} вычисляется по формуле (11)
 
 {{< math >}}
 $$
@@ -292,11 +292,11 @@ $$
 $$
 {{< /math >}}
 
-## Dendrite growth 
+## Рост дендрита 
 
-The state of each node is {{< math >}}$n = 0${{< /math >}} — liquid phase, {{< math >}}$n = 1${{< /math >}} — solid phase. Intermediate states are not taken into account.
+Состояние каждого узла: {{< math >}}$n = 0${{< /math >}} — жидкая фаза, {{< math >}}$n = 1${{< /math >}} — твердая фаза. Промежуточные состояния не учитываются.
 
-A node changes from a liquid to a solid state if it is located at the boundary and the temperature in it is lower than the local melting point. That is, condition (12) is fulfilled :
+Узел переходит из жидкого в твердое состояние, если он находится на границе и температура в нем ниже локальной температуры плавления. То есть выполняется условие (12) :
 
 {{< math >}}
 $$
@@ -305,21 +305,21 @@ T \leq \tilde{T}_m (1 + \eta_{i,j} \delta) + \lambda s_{i,j},
 $$
 {{< /math >}}
 
-where:
+где:
 
-- {{< math >}}$\tilde{T}_m${{< /math >}} — dimensionless initial hypothermia,
+- {{< math >}}$\tilde{T}_m${{< /math >}} — безразмерное начальное переохлаждение,
 
-- {{< math >}}$\eta_{i,j}${{< /math >}} is a random number in the range $[-1,1]$,
+- {{< math >}}$\eta_{i,j}${{< /math >}} — случайное число в интервале $[-1,1]$,
 
-- {{< math >}}$\delta${{< /math >}} is the value of the random temperature deviation (thermal noise),
+- {{< math >}}$\delta${{< /math >}} — величина случайного отклонения температуры  (теплового шума),
 
-- {{< math >}}$\lambda${{< /math >}} is the value associated with the capillary radius,
+- {{< math >}}$\lambda${{< /math >}} — величина, связанная с капиллярным радиусом,
 
-- {{< math >}}$s_{i,j}${{< /math >}} is a parameter that takes into account the curvature of the boundary.
+- {{< math >}}$s_{i,j}${{< /math >}} — параметр, учитывающий кривизну границы.
 
-## Taking into account the curvature of the border 
+## Учет кривизны границы 
 
-The curvature of the boundary {{< math >}}$1/R${{< /math >}} is approximately calculated from the neighbors of node (13) :
+Кривизна границы  {{< math >}}$1/R${{< /math >}} приближенно вычисляется по соседям узла (13) :
 
 {{< math >}}
 $$
@@ -328,28 +328,28 @@ $$
 $$
 {{< /math >}}
 
-where:
+где:
 
-- the first amount is for the nearest neighbors,
+- первая сумма — по ближайшим соседям,
 
-- the second sum is based on the diagonal neighbors,
+- вторая сумма — по диагональным соседям,
 
-- {{< math >}}$w_n${{< /math >}} is a coefficient, usually {{< math >}}$w_n = 1/2${{< /math >}}.
+- {{< math >}}$w_n${{< /math >}} — коэффициент, обычно {{< math >}}$w_n = 1/2${{< /math >}}.
 
-Naturally, when the substance solidifies, the temperature in the node increases by 1 in our dimensionless units.
+Естественно, при затвердевании вещества температура в узле повышается на 1 в наших безразмерных единицах
 
-# Examples of dendrite growth patterns
+# Примеры моделей роста дендритов
 
-Two-dimensional dendritic structures are formed under self-assembly conditions using an aqueous solution of copper sulfate and zinc plates placed in a Petri dish on filter paper. Zinc slowly displaces copper from an aqueous solution of copper sulfate, so that zinc sulfate is formed and copper precipitates in the form of dendritic structures.
+В условиях самосборки с использованием водного раствора сульфата меди и пластин цинка, размещенных в чашечке Петри на фильтровальной бумаге, образуются двумерные дендритные структуры. Цинк медленно вытесняет медь из водного раствора сульфата меди, так что образуется сульфат цинка и выпадает медь в виде дендритных структур.
 
-- **Initial stage**: Formation of copper nuclei on the surface of the zinc plate.
+- **Начальная стадия**: Образование зародышей меди на поверхности цинковой пластины.
 
-- **Dendrite growth**: The organization of embryos into larger formations.
+- **Рост дендритов**: Организация зародышей в более крупные образования.
 
-- **Structure formation**: The appearance of metallic tree-like formations with a lush crown.
+- **Формирование структуры**: Появление металлических древовидных образований с пышной кроной.
 
-- **Impurity redistribution**: During dendrite growth, copper ions diffuse from areas with high concentrations to areas with low concentrations. This redistribution of impurities affects the shape and growth rate of dendrites, creating more complex and branched structures.
-This means that the impurity concentration in the liquid phase varies depending on the position and growth of the dendrites. The model uses diffusion equations to describe the redistribution of impurities (14). 
+- **Перераспределение примеси**: В процессе роста дендритов ионы меди диффундируют от областей с высокой концентрацией к областям с низкой концентрацией. Это перераспределение примеси влияет на форму и скорость роста дендритов, создавая более сложные и ветвистые структуры.
+Это означает, что концентрация примеси в жидкой фазе изменяется в зависимости от положения и роста дендритов. В модели используются уравнения диффузии для описания перераспределения примеси (14). 
 
 {{< math >}}
 $$
@@ -358,13 +358,13 @@ $$
 $$
 {{< /math >}}
 
-where {{< math >}}$C${{< /math >}} is the impurity concentration, {{< math >}}$D${{< /math >}} is the diffusion coefficient.
+где {{< math >}}$C${{< /math >}} — концентрация примеси, {{< math >}}$D${{< /math >}} — коэффициент диффузии.
 
-## Phase-field model
+## Фазово-полевая модель
 
-The phase-field model is one of the most common models for describing dendrite growth. It is based on thermodynamic principles and describes the kinetics of phase transitions in a system. This model uses a phase field, which is a parameter describing the state of a system (solid or liquid).
+Фазово-полевая модель является одной из наиболее распространенных моделей для описания роста дендритов. Она основывается на термодинамических принципах и описывает кинетику фазовых переходов в системе. В этой модели используется фазовое поле, которое представляет собой параметр, описывающий состояние системы (твердое тело или жидкость).
 
-The equation of the phase field (15)
+Уравнение фазового поля (15)
 
 {{< math >}}
 $$
@@ -373,32 +373,32 @@ $$
 $$
 {{< /math >}}
 
-where {{< math >}}$\phi${{< /math>}} is the phase field, {{< math >}}$M${{< /math >}} is mobility, {{< math >}}$f${{< /math >}} — free energy.
+где {{< math >}}$\phi${{< /math >}} — фазовое поле, {{< math >}}$M${{< /math >}} — подвижность, {{< math >}}$f${{< /math >}} — свободная энергия.
 
-The phase-field model allows us to take into account the influence of temperature and impurity concentration on the process of dendrite growth. It also takes into account anisotropy, that is, the dependence of material properties on the direction. This is important for accurately describing the shape and growth rate of dendrites.
+Фазово-полевая модель позволяет учитывать влияние температуры и концентрации примеси на процесс роста дендритов. Она также учитывает анизотропию, то есть зависимость свойств материала от направления. Это важно для точного описания формы и скорости роста дендритов.
 
- 
-## A model of cellular automata
+## Модель клеточных автоматов
 
-The cellular automata model is used to discretely describe the growth of dendrites. In this model, space is divided into cells, each of which can be in one of several states (liquid, solid, boundary). Transitions between states are described by probabilistic rules that depend on local conditions.
+Модель клеточных автоматов используется для дискретного описания роста дендритов. В этой модели пространство делится на ячейки, каждая из которых может находиться в одном из нескольких состояний (жидкость, твердое тело, граница). Переходы между состояниями описываются вероятностными правилами, зависящими от локальных условий.
 
-- **Cell states**: Liquid, Solid, boundary.
+- **Состояния ячеек**: Жидкость, твердое тело, граница.
 
-- **Transition rules**: Probabilistic rules that depend on local conditions.
+- **Правила перехода**: Вероятностные правила, зависящие от локальных условий.
 
-- **Influence of neighboring cells**: Interaction between cells is taken into account through local transition rules.
+- **Влияние соседних ячеек**: Взаимодействие между ячейками учитывается через локальные правила перехода.
 
-The cellular automata model allows us to take into account complex interactions between cells and describe the process of dendrite growth at the microscopic level. 
+Модель клеточных автоматов позволяет учитывать сложные взаимодействия между ячейками и описывать процесс роста дендритов на микроскопическом уровне. 
 
-# Conclusions
+# Выводы
 
-During the first stage of the group project, we made a theoretical description of the dendrite growth model and identified the tasks of further research.
+Во время выполнения первого этапа группового проекта мы сделали теоретическое описание модели роста дендритов и определили задачи дальнейшего исследования.
 
-# List of references
+# Список литературы
 
-1. Dendrite [Electronic resource]. Wikimedia Foundation, Inc., 2025. URL: https://en.wikipedia.org/wiki/Dendrite_(crystal). 
-2. Fundamentals of molecular kinetic theory [Electronic resource]. Russian Technological University, 2024. URL:https://lc.rt.ru/classbook/fiz ika-10-class/osnovy-molekulyarno-kineticheskoi-teorii/6171.
-3. Medvedev D. A. et al. Modeling of physical processes and phenomena on a PC: Textbook. NSU Editorial and Publishing Center, 2010. 101 p. 
-4. Ermakov A.V. Structure and properties of metals and alloys. Ural Federal University, 2020. 134 p. 
-5. Rakhmankulova G. A., Nasibullina D. F. Modeling of the formation of dendritic structures during metal crystallization // Young Scientist. 2017. No. 8.1. pp. 33-35.
-6. Baranov V. G., Khramov A. G. Modeling of the growth process of dendritic crystal structures // Computer optics. Institute of Image Processing Systems, Iran, 2001. pp. 173-177.
+1.	Dendrite [Электронный ресурс]. Wikimedia Foundation, Inc., 2025. URL: https://en.wikipedia.org/wiki/Dendrite_(crystal). 
+2.	Основы молекулярно-кинетической теории [Электронный ресурс]. Российский технологический университет, 2024. URL:https://lc.rt.ru/classbook/fiz ika-10-klass/osnovy-molekulyarno-kineticheskoi-teorii/6171. 
+3.	Медведев Д. А. и др. Моделирование физических процессов и явлений на ПК: Учеб. пособие. Редакционно-издательский центр НГУ, 2010. 101 с. 
+4.	Ермаков А. В. Структура и свойства металлов и сплавов. Уральский федеральный университет, 2020. 134 с. 
+5.	Рахманкулова Г. А.,Насибуллина Д. Ф. Моделирование процесса образования дендритных структур при кристаллизации металлов // Молодой ученый. 2017. № 8.1. С. 33–35.
+6.	Баранов В. Г., Храмов А. Г. Моделирование процесса роста дендритных кристаллических структур // Компьютерная оптика. Институт систем обработки изображенийРАН, 2001. С. 173–177.
+
