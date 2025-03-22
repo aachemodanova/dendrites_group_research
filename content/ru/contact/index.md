@@ -13,8 +13,8 @@ sections:
       email: 1132226447@pfur.ru
       phone: 
       address:
-        street: Ordzhonikidze 3
-        city: Moscow
+        street: Орджоникидзе 3
+        city: Москва
         region: 
         postcode: 
         country: 
