@@ -3,7 +3,9 @@ title: Group project "Dendrite growth". Stage 1. The scientific problem of the p
 date: 2025-03-20
 image:
   focal_point: 'top'
+authors: [Eva Dvorkina, Angelina Chemodanova, Uliana Aleksandrova, Irina Seregina, Ivan Volgin, Yaroslav Goloschapov]
 ---
+Our research group is working on a project on "Dendrite growth", in which we explore a mathematical model of this process. 
 
 <!--more-->
 
