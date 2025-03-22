@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Связаться с нами
 date: 2025-03-21
 
 type: landing
@@ -7,9 +7,9 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Contact
+      title: Связаться с нами
       text: |-
-        Thank you for your interest in our project. If you have any questions or feedback, please contact us using this form:
+        Благодарим вас за проявленный интерес к нашему проекту. Если у вас есть какие-либо вопросы или пожелания, пожалуйста, свяжитесь с нами, используя эту форму:
       email: 1132226447@pfur.ru
       phone: 
       address:

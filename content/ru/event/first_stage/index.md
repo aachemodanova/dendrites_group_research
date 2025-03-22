@@ -1,7 +1,7 @@
 ---
-title: Presentation on the topic. Group project "Dendrite growth". Stage 1. The scientific problem of the project
+title: Презентация и выступление по теме. Групповой проект "Рост дендритов". Этап 1. Научная проблема проекта
 
-event: Group project "Dendrite growth". Stage 1.
+event: Групповой проект "Рост дендритов". Этап 1.
 event_url: 
 
 location: 
@@ -13,7 +13,7 @@ address:
   country: 
 
 summary: Group project "Dendrite growth". Stage 1.
-abstract: 'We have prepared a presentation on the first stage of the project "Dendrite growth"'
+abstract: 'Мы подготовили презентацию и выступление по первому этапу группового проекта "Рост дендритов"'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -58,26 +58,26 @@ projects:
 
 <iframe width="560" height="315" src="https://plvideo.ru/embed/vIeydVQu--Je" title="Platform video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Relevance
-The appearance of dendrites plays a key role in metallurgy and in foundry production, especially during the solidification of metals and alloys, since the microstructure of the resulting dendrites largely determines the mechanical, electrical and thermal properties of the obtained materials. Studying their characteristics is important not only for a theoretical understanding of crystallization processes, but also for practice, for improving production technologies of modern materials with specified properties. 
-Thus, the scientific problem is to develop theoretical and numerical models capable of accurately predicting the dynamics of dendrite growth and their effect on the microstructure of formed materials.
+## Актуальность
+Появление дендритов играет ключевую роль в металлургии и литейном производстве, особенно при затвердевании металлов и сплавов, поскольку микроструктура образующихся дендритов во многом определяет механические, электрические и термические свойства получаемых материалов. Изучение их характеристик важно не только для теоретического понимания процессов кристаллизации, но и для практики, для совершенствования технологий производства современных материалов с заданными свойствами. 
+Таким образом, научная задача заключается в разработке теоретических и численных моделей, способных точно прогнозировать динамику роста дендритов и их влияние на микроструктуру формуемых материалов.
 
-## Object and subject of research
-- Dendrites, 
-- Crystalline dendrites
+## Объект и предмет исследования
+- Дендриты, 
+- Кристаллические дендриты
 
-## Goals 
-To investigate the dendrite growth model
+## Цели 
+Исследовать модель роста дендритов
 
-## Tasks
-Consider a combined model of dendrite growth
-Consider an algorithm for constructing a model of dendrite growth
-To build a model of dendrite growth
-, investigate the time dependence of the number of particles in an aggregate and its RMS radius in different modes.
+## Задачи
+Рассмотрим комбинированную модель роста дендритов
+Рассмотрим алгоритм построения модели роста дендритов
+Чтобы построить модель роста дендритов
+, исследуйте временную зависимость количества частиц в агрегате и его среднеквадратичного радиуса в различных режимах.
 
-## Definition
+## Определение
 
-A dendrite is a crystal that develops with a typical branching shape resembling a fractal.  In metals, they are formed during crystallization from a supercooled melt.
+Дендрит - это кристалл, который развивается с типичной формой разветвления, напоминающей фрактал.  В металлах они образуются в процессе кристаллизации из переохлажденного расплава.
 
-## Result
-The first stage of the group project on "Dendrite growth" was completed, as a result of which we examined materials on a scientific problem, made a theoretical description of the dendrite growth model and identified the tasks of further research.
+## Выводы
+Завершен первый этап группового проекта по теме "Рост дендритов", в результате которого мы изучили материалы по научной проблеме, составили теоретическое описание модели роста дендритов и определили задачи дальнейших исследований.
