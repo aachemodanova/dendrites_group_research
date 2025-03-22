@@ -39,6 +39,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
+  - name: release
+    url: https://github.com/evdvorkina/study_2024-2025_mathmod/releases/tag/v9.0.0
   - name: report_md
     url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/report/report.md
   - name: report_pdf
@@ -51,17 +53,13 @@ links:
     url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/presentation/presentation.pdf
   - name: presentation_html
     url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage1/presentation/presentation.html
-  - name: rutube
-    url: https://plvideo.ru/watch?v=vIeydVQu--Je&list=LIYh9zr7Zwte
-  - name: plvideo
-    url: https://plvideo.ru/watch?v=vIeydVQu--Je&list=LIYh9zr7Zwte
-
+    
 url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/publication/first_stage/report.pdf'
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: 'https://aachemodanova.github.io/dendrites_group_research/publication/first_stage/presentation.pdf'
 url_project: ''
-url_slides: 'https://aachemodanova.github.io/dendrites_group_research/publication/first_stage/presentation.pdf'
+url_slides: ''
 url_source: ''
 url_video: ''
 
