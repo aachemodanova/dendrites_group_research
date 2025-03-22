@@ -10,9 +10,30 @@ en:
 ru:
   languageCode: ru-ru
   contentDir: content/ru/
+  title: Групповой проект
+  menu:
+    main:
+      - name: Обзор
+        url: '#tour'
+        weight: 10
+      - name: Новости
+        url: '#post'
+        weight: 20
+      - name: Участники
+        url: '#people'
+        weight: 30
+      - name: События
+        url: '#event'
+        weight: 40
+      - name: Публикации
+        url: '#publications'
+        weight: 50
+      - name: Связаться
+        url: '#contact'
+        weight: 60
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
+#ru:
 #  languageCode: zh-Hans
 #  contentDir: content/zh
 #  title: Chinese website title...
