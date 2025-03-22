@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Irina Seregina
+title: Ирина Серегина
 
 # Full name (for SEO)
-first_name: Irina
-last_name: Seregina
+first_name: Ирина
+last_name: Серегина
 
 # Username (this should match the folder name)
 authors:
@@ -14,25 +14,25 @@ authors:
 superuser: false
 
 # Role/position
-role: Computer science student
+role: Студентка направления "Фундаментальная информатика и информационные технологии"
 
 # Organizations/Affiliations
 organizations:
-  - name: Peoples' Friendship University of Russia named after Patrice Lumumba
+  - name: Российский университет дружбы народов имени Патриса Лумумбы
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My interests are Machine Learning and Data Analysis.
 
 interests:
-  - Informatics 
-  - Mathematics
-  - Languages
+  - Информатика 
+  - Математика
+  - Иностранные языки
 
 education:
   courses:
-    - course: Fundamental computer science and information technology
-      institution: Peoples' Friendship University of Russia named after Patrice Lumumba
+    - course: Фундаментальная информатика и информационные технологии
+      institution: Российский университет дружбы народов имени Патриса Лумумбы
       year: 2022-2026
 
 # Social/Academic Networking
@@ -58,7 +58,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Участники команды
 ---
 
-Irina Seregina is a student of PFUR University, studying "fundamental computer science and information technologies". She is interested in mathematical statistics, machine learning and data analysis. This study interests her because of its relevance and interesting and non-trivial subject matter. In her spare time she prefers reading and playing guitar, as well as studying languages and researching topics related to the university program.
+Ирина Серегина - студентка РУДН, обучающаяся по направлению "Фундаментальная информатика и информационные технологии". Она интересуется математической статистикой, машинным обучением и анализом данных. Это исследование заинтересовало ее своей актуальностью и интересной и нетривиальной тематикой. В свободное время она предпочитает читать и играть на гитаре, а также изучать языки и исследовать темы, связанные с университетской программой.

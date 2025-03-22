@@ -1,34 +1,34 @@
 ---
 # Display name
-title: Ivan Volgin
+title: Иван Волгин
 
 # Full Name (for SEO)
-first_name: Ivan
-last_name: Volgin
+first_name: Иван
+last_name: Волгин
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Computer science student
+role: Студент направления "Фундаментальная информатика и информационные технологии"
 
 # Organizations/Affiliations
 organizations:
-  - name: Peoples' Friendship University of Russia named after Patrice Lumumba
+  - name: Российский университет дружбы народов имени Патриса Лумумбы
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests are Machine Learning, Data Analysis and Microservices Developing.
+bio: Мои интересы - машинное обучение, анализ данных и разработка микросервисов.
 
 interests:
-  - Informatics 
-  - Mathematics
-  - Languages
+  - Информатика
+  - Математика
+  - Иностранные языки
 
 education:
   courses:
-    - course: Fundamental computer science and information technology
-      institution: Peoples' Friendship University of Russia named after Patrice Lumumba
+    - course: Фундаментальная информатика и информационные технологии
+      institution: Российский университет дружбы народов имени Патриса Лумумбы
       year: 2022-2026
 
 # Social/Academic Networking
@@ -57,7 +57,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Участники команды
 ---
 
-Ivan Volgin is a student of PFUR University, studying "fundamental computer science and information technologies". He is interested in machine learning (especially CV), data analysis and development of microservices. This study interests him because of its relevance and interesting and non-trivial subject matter. In his spare time he prefers doing sport and looking after plants, as well as studying languages and researching topics related to the university program.
+Иван Волгин - студент РУДН, обучается по направлению "Фундаментальная информатика и информационные технологии". Он интересуется машинным обучением (особенно составлением резюме), анализом данных и разработкой микросервисов. Это исследование заинтересовало его своей актуальностью и интересной и нетривиальной тематикой. В свободное время он предпочитает заниматься спортом и ухаживать за растениями, а также изучать языки и исследовать темы, связанные с университетской программой.

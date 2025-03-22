@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Angelina Chemodanova
+title: Ангелина Чемоданова
 
 # Full name (for SEO)
-first_name: Angelina
-last_name: Chemodanova
+first_name: Ангелина
+last_name: Чемоданова
 
 # Username (this should match the folder name)
 authors:
@@ -14,25 +14,25 @@ authors:
 superuser: false
 
 # Role/position
-role: Computer science student
+role: Студентка направления "Фундаментальная информатика и информационные технологии"
 
 # Organizations/Affiliations
 organizations:
-  - name: Peoples' Friendship University of Russia named after Patrice Lumumba
+  - name: Российский университет дружбы народов имени Патриса Лумумбы
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include higher-order Markov chains, queuing systems, and infocommunications.
+bio: Мои научные интересы включают марковские цепи высшего порядка, системы массового обслуживания и инфокоммуникации.
 
 interests:
-  - Economy
-  - Probability Theory
-  - Mathematical Statistics
+  - Экономика
+  - Теория вероятностей
+  - Maтематическая статистика
 
 education:
   courses:
-    - course: Fundamental computer science and information technology
-      institution: Peoples' Friendship University of Russia named after Patrice Lumumba
+    - course: Фундаментальная информатика и информационные технологии
+      institution: Российский университет дружбы народов имени Патриса Лумумбы
       year: 2022-2026
 
 # Social/Academic Networking
@@ -58,7 +58,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Участники команды
 ---
 
-Angelina Chemodanova is a student at the Peoples' Friendship University of Russia named after Patrice Lumumba. Her research interests are related to probability theory, mathematical statistics, and economics. She chose to work on this project in order to deal with a new interesting task. In her spare time from computer science, she is engaged in creative work, draws paintings to order, sews and is fond of modeling.
+Ангелина Чемоданова - студентка Российского университета дружбы народов имени Патриса Лумумбы. Ее научные интересы связаны с теорией вероятностей, математической статистикой и экономикой. Она решила работать над этим проектом, чтобы решить новую интересную задачу. В свободное от информатики время она занимается творчеством, рисует картины на заказ, шьет и увлекается моделированием.

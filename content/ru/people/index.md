@@ -17,6 +17,7 @@ sections:
           - Administration
           - Visitors
           - Alumni
+          - Участники команды
       sort_by: Params.last_name
       sort_ascending: true
     design:

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Uliana Aleksandrova
+title: Ульяна Александрова
 
 # Full name (for SEO)
-first_name: Uliana
-last_name: Aleksandrova
+first_name: Ульяна
+last_name: Александрова
 
 # Username (this should match the folder name)
 authors:
@@ -14,25 +14,25 @@ authors:
 superuser: false
 
 # Role/position
-role: Computer science student
+role: Студентка направления "Фундаментальная информатика и информационные технологии"
 
 # Organizations/Affiliations
 organizations:
-  - name: Peoples' Friendship University of Russia named after Patrice Lumumba
+  - name: Российский университет дружбы народов имени Патриса Лумумбы
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My areas of interest include Machine Learning, Data Analytics and Neural networks.
+bio: Мои интересы включают машинное обучение, аналитику данных и нейронные сети.
 
 interests:
-  - Mathematics
-  - Languages
-  - Informatics
+  - Математика
+  - Иностранные языки
+  - Информатика
 
 education:
   courses:
-    - course: Fundamental computer science and information technology
-      institution: Peoples' Friendship University of Russia named after Patrice Lumumba
+    - course: Фундаментальная информатика и информационные технологии
+      institution: Российский университет дружбы народов имени Патриса Лумумбы
       year: 2022-2026
 
 # Social/Academic Networking
@@ -58,7 +58,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Участники команды
 ---
 
-Uliana Aleksandrova is a student at RUDN university, majoring in Fundamental computer science and information technology. Her direction of study is Machine Learning and Robotic Systems, as well as Data Science. She takes part in this research due to her interest in Neural Networks and their connections with physics. In her spare time, she prefers learning languages, taking up creative hobbies and going to the gym.
+Ульяна Александрова - студентка РУДН по специальности "Фундаментальная информатика и информационные технологии". Ее направление исследования - машинное обучение и робототехнические системы, а также наука о данных. Она принимает участие в этом исследовании из-за своего интереса к нейронным сетям и их связи с физикой. В свободное время она предпочитает изучать языки, заниматься творческими увлечениями и посещать тренажерный зал.

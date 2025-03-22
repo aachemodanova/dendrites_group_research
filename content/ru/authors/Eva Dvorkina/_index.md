@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Eva Dvorkina
+title: Ева Дворкина
 
 # Full name (for SEO)
-first_name: Eva
-last_name: Dvorkina
+first_name: Ева
+last_name: Дворкина
 
 # Username (this should match the folder name)
 authors:
@@ -14,25 +14,25 @@ authors:
 superuser: false
 
 # Role/position
-role: Computer science student
+role: Студентка направления "Фундаментальная информатика и информационные технологии"
 
 # Organizations/Affiliations
 organizations:
-  - name: Peoples' Friendship University of Russia named after Patrice Lumumba
+  - name: Российский университет дружбы народов имени Патриса Лумумбы
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include neural networks, machine learning, and computer graphics.
+bio: Мои научные интересы включают нейронные сети, машинное обучение и компьютерную графику.
 
 interests:
-  - Artificial intelligence 
-  - Expert systems
-  - Mathematical Statistics
+  - Искусственный интеллект
+  - Экспертные системы
+  - Математическая статистика
 
 education:
   courses:
-    - course: Fundamental computer science and information technology
-      institution: Peoples' Friendship University of Russia named after Patrice Lumumba
+    - course: Фундаментальная информатика и информационные технологии
+      institution: Российский университет дружбы народов имени Патриса Лумумбы
       year: 2022-2026
 
 # Social/Academic Networking
@@ -64,7 +64,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Участники команды
 ---
 
-Eva Dvorkina is a student at the Peoples' Friendship University of Russia named after Patrice Lumumba. She is Executive Secretary of the Student Committee of the Faculty of Sciences. Her research interests are related to artificial intelligence, mathematical statistics, and expert systems. She chose to work on this project in order to deal with a new interesting task. In her spare time from computer science, she is engaged in creative work, draws paintings, volunteers, and explains mathematics to students.
+Ева Дворкина - студентка Российского университета дружбы народов имени Патриса Лумумбы. Она является ответственным секретарем студенческого комитета факультета естественных наук. Ее научные интересы связаны с искусственным интеллектом, математической статистикой и экспертными системами. Она решила работать над этим проектом, чтобы справиться с новой интересной задачей. В свободное от информатики время она занимается творчеством, рисует картины, работает волонтером и объясняет математику студентам.

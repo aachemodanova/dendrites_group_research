@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Yaroslav Goloschapov
+title: Ярослав Голощапов
 
 # Full name (for SEO)
-first_name: Yaroslav
-last_name: Goloschapov
+first_name: Ярослав
+last_name: Голощапов
 
 # Username (this should match the folder name)
 authors:
@@ -14,26 +14,26 @@ authors:
 superuser: false
 
 # Role/position
-role: Computer science student
+role: Студент направления "Фундаментальная информатика и информационные технологии"
 
 # Organizations/Affiliations
 organizations:
-  - name: Peoples' Friendship University of Russia named after Patrice Lumumba
+  - name: Российский университет дружбы народов имени Патриса Лумумбы
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My areas of interest include Machine Learning, Artificial Intelligence, Robotics.
+bio: Мои интересы включают машинное обучение, искусственный интеллект, робототехнику.
 
 interests:
-  - Informatics
-  - Robotics
-  - Artificial Intelligence
+  - Информатика
+  - Робототехника
+  - Искусственный интеллект
 
 education:
-  courses: 
-    - course: Fundamental computer science and information technology 
-      institution: Peoples' Friendship University of Russia named after Patrice Lumumba 
-      year: 2022-2026 
+  courses:
+    - course: Фундаментальная информатика и информационные технологии
+      institution: Российский университет дружбы народов имени Патриса Лумумбы
+      year: 2022-2026
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -58,7 +58,7 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Участники команды
 ---
 
-Yaroslav Goloschapov is a student at RUDN University, majoring in Fundamental Computer Science and Information Technology. His academic focus lies in the fields of Machine Learning, Artificial Intelligence, and Robotics, with a particular passion for developing intelligent systems and exploring the intersection of technology and innovation. He is actively involved in research projects centered around Neural Networks, their practical applications in Robotics, and their potential to solve complex real-world problems. Beyond academics, Yaroslav is passionate about expanding his knowledge of programming languages, experimenting with cutting-edge technologies, and working on creative projects that combine his technical skills with his artistic interests.
+Ярослав Голощапов - студент РУДН по специальности "Фундаментальная информатика и информационные технологии". В своей научной деятельности он специализируется на машинном обучении, искусственном интеллекте и робототехнике, с особой страстью разрабатывая интеллектуальные системы и исследуя пересечение технологий и инноваций. Он активно участвует в исследовательских проектах, посвященных нейронным сетям, их практическому применению в робототехнике и их потенциалу для решения сложных реальных задач. Помимо академических занятий, Ярослав страстно желает расширить свои знания в области языков программирования, экспериментировать с передовыми технологиями и работать над творческими проектами, сочетающими его технические навыки с художественными интересами.
