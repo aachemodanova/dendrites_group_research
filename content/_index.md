@@ -63,7 +63,7 @@ sections:
       filters:
         folders:
           - publication
-        publication_type: 'article'
+        publication_type: 'Project_stages'
     design:
       view: citation
       columns: '1'
