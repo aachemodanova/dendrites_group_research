@@ -9,7 +9,7 @@ Our research team is working on a project on "Dendrite growth," in which we are 
 
 <!--more-->
 
-## Общая информация
+## General information
 Our research team is working on a project on "Dendrite growth," in which we are exploring a mathematical model of this process, as well as algorithms for solving this problem.
 
 Link to general information with all materials on the second stage of the project: https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/
