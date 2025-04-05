@@ -40,7 +40,7 @@ featured: true
 # Custom links (uncomment lines below)
 links:
   - name: PRESENTATION
-    url: https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/presentation.pdf
+    url: https://aachemodanova.github.io/dendrites_group_research/ru/publication/second_stage/presentation.pdf
   - name: release
     url: https://github.com/evdvorkina/study_2024-2025_mathmod/releases/tag/v10.0.0
   - name: report_md
@@ -56,7 +56,7 @@ links:
   - name: presentation_html
     url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage2/presentation/presentation.html
     
-url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/report.pdf'
+url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/ru/publication/second_stage/report.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -115,7 +115,7 @@ slides: presentation.md
 
 # Алгоритм
 
-## Шаг 1: Описание алгоритма
+## Шаг 1: Задание параметров
 
 На первом этапе задается начальное состояние системы, которое включает в себя все необходимые физические параметры материала и граничные условия для симуляции. Особое внимание уделяется корректности задания исходных данных, так как от этого зависит достоверность всего процесса моделирования.
 
@@ -180,7 +180,7 @@ $$
 - Метод конечных разностей: аппроксимирует производные через дискретные значения;
 - Выбор временного шага {{< math >}}$\Delta t${{< /math >}} и пространственного шага {{< math >}}$h${{< /math >}} важен для стабильности и точности расчетов.
 
-### Шаги алгоритма:
+### Шаги расчета:
 
 - Вычислить новое распределение температуры на каждом шаге времени {{< math >}}$\Delta t${{< /math >}};
 - Обновлять значения температуры в каждой точке сетки;
