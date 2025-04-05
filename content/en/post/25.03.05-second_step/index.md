@@ -12,9 +12,9 @@ Our research team is working on a project on "Dendrite growth," in which we are 
 ## Общая информация
 Our research team is working on a project on "Dendrite growth," in which we are exploring a mathematical model of this process, as well as algorithms for solving this problem.
 
-Link to general information with all materials on the second stage of the project: https://aachemodanova.github.io/dendrites_group_research/ru/publication/second_stage/
+Link to general information with all materials on the second stage of the project: https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/
 
-Link to the event with presentations on the second stage of the project: https://aachemodanova.github.io/dendrites_group_research/ru/event/second_stage/
+Link to the event with presentations on the second stage of the project: https://aachemodanova.github.io/dendrites_group_research/event/second_stage/
 
 ## Relevance
 
@@ -89,6 +89,6 @@ The first stage of the group project on "Dendrite growth" has been completed, as
 
 ## Materials of the first stage
 
-Link to general information with all materials on the first stage of the project: https://aachemodanova.github.io/dendrites_group_research/en/publication/first_stage/
+Link to general information with all materials on the first stage of the project: https://aachemodanova.github.io/dendrites_group_research/publication/first_stage/
 
-Link to the event with presentations on the first stage of the project: https://aachemodanova.github.io/dendrites_group_research/en/event/first_stage/
+Link to the event with presentations on the first stage of the project: https://aachemodanova.github.io/dendrites_group_research/event/first_stage/

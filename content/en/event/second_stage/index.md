@@ -35,8 +35,8 @@ image:
   focal_point: Right
 
 url_code: ''
-url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/ru/publication/second_stage/report.pdf'
-url_slides: 'https://aachemodanova.github.io/dendrites_group_research/ru/publication/second_stage/presentation.pdf'
+url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/report.pdf'
+url_slides: 'https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/presentation.pdf'
 url_video: ''
 
 # Markdown Slides (optional).

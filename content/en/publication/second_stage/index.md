@@ -40,7 +40,7 @@ featured: true
 # Custom links (uncomment lines below)
 links:
   - name: PRESENTATION
-    url: https://aachemodanova.github.io/dendrites_group_research/en/publication/second_stage/presentation.pdf
+    url: https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/presentation.pdf
   - name: release
     url: https://github.com/evdvorkina/study_2024-2025_mathmod/releases/tag/v10.0.0
   - name: report_md
@@ -56,7 +56,7 @@ links:
   - name: presentation_html
     url: https://github.com/evdvorkina/study_2024-2025_mathmod/blob/master/project-group/stage2/presentation/presentation.html
     
-url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/en/publication/second_stage/report.pdf'
+url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/report.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
