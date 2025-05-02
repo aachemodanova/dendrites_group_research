@@ -1,62 +1,20 @@
 ---
-title: Presentation on the topic. Group project "Dendrite growth". Stage 3. Description of the software implementation
-
-event: Group project "Dendrite growth". Stage 3.
-event_url: 
-
-location: 
-address:
-  street: 
-  city: 
-  region: 
-  postcode: 
-  country: 
-
-summary: Group project "Dendrite growth". Stage 3.
-abstract: 'We have prepared a presentation and presentation on the third stage of the Dendrite Growth group project.'
-
-# Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: '2025-05-02T00:00:00Z'
-date_end: '2025-05-02T00:00:00Z'
-all_day: false
-
-# Schedule page publish date (NOT talk date).
-publishDate: '2025-05-02T00:00:00Z'
-
-authors: [Eva Dvorkina, Angelina Chemodanova, Uliana Aleksandrova, Irina Seregina, Ivan Volgin, Yaroslav Goloschapov]
-tags: []
-
-# Is this a featured talk? (true/false)
-featured: false
-
+title: Group project "Dendrite Growth". Stage 3. Description of the software implementation
+date: 2025-05-02
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-
-url_code: ''
-url_pdf: 'https://aachemodanova.github.io/dendrites_group_research/publication/third_stage/report.pdf'
-url_slides: 'https://aachemodanova.github.io/dendrites_group_research/publication/third_stage/presentation.pdf'
-url_video: ''
-
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides:
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects:
+  focal_point: 'top'
+authors: [Eva Dvorkina, Angelina Chemodanova, Uliana Aleksandrova, Irina Seregina, Ivan Volgin, Yaroslav Goloschapov]
 ---
+Our research team is working on a project on "Dendrite growth," in which we are exploring a mathematical model of this process, as well as algorithms for solving this problem.
 
-<iframe width="720" height="405" src="https://rutube.ru/play/embed/8d17b15b60b0f12d8fa4222d2860cc9d/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<!--more-->
 
-<iframe width="560" height="315" src="https://plvideo.ru/embed/Pdk1XiznJ3qf" title="Platform video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## General information
+Our research team is working on a project on "Dendrite growth," in which we are exploring a mathematical model of this process, as well as algorithms for solving this problem.
+
+Link to general information with all materials on the third stage of the project: https://aachemodanova.github.io/dendrites_group_research/publication/third_stage/
+
+Link to the event with presentations on the third stage of the project: https://aachemodanova.github.io/dendrites_group_research/event/third_stage/
 
 
 ## Relevance
@@ -186,7 +144,7 @@ Implemented the 'fractal_dimension` function
 
 ![Thermal noise value ($\delta$) 0.1](13.png)
 
-## Conclusion
+## Conclusions
 
 1. The process of thermal conductivity is modeled.
 2. The effect of initial hypothermia and capillary radius on the shape of dendrites is investigated.
@@ -196,3 +154,18 @@ Implemented the 'fractal_dimension` function
 The results show that:
 
 - Thermal noise significantly affects the structure of dendrites, increasing their irregularity and growth rate.
+
+
+# See also
+
+## Materials of the second stage
+
+Link to general information with all materials on the second stage of the project: https://aachemodanova.github.io/dendrites_group_research/publication/second_stage/
+
+Link to the event with presentations on the second stage of the project: https://aachemodanova.github.io/dendrites_group_research/event/second_stage/
+
+## Materials of the first stage
+
+Link to general information with all materials on the first stage of the project: https://aachemodanova.github.io/dendrites_group_research/publication/first_stage/
+
+Link to the event with presentations on the first stage of the project: https://aachemodanova.github.io/dendrites_group_research/event/first_stage/
