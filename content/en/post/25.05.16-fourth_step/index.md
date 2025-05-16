@@ -182,15 +182,9 @@ n[N÷2+1, N÷2+1] = 1
   - Number of solidified particles
   - RMS radius 
 
-![Curvate function](func.png)
-
 ## Thermal conductivity model
 
 ![Temperature distribution without noise](8.png)
-
-The `simulate_heat_conduction` function based on the temperature update equation:
-
-![simulate_heat_conduction function](s.png)
 
 ## Adding the solidification process
 
